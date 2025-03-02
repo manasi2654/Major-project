@@ -1,0 +1,35 @@
+PROBLEM STATEMENT:
+
+In today’s digital landscape, fraudulent campaigns, misinformation, and lack of transparency 
+are major concerns in crowdfunding and decentralized governance systems. 
+Traditional platforms struggle with authenticity verification, campaign classification, 
+and user sentiment analysis, making them vulnerable to scams and manipulation.
+The conventional crowdfunding model, centralized and prone to transparency issues,
+prompts inefficiency and mistrust among donors. Blockchain technology offers a  
+decentralized alternative, ensuring transparency and security through its immutable ledger. 
+By leveraging blockchain, crowdfunding platforms eliminate authoritative
+control, fostering trust and accountability.
+A practical problem statement emerges: How can
+organizations effectively transition from centralized crowdfunding platforms to de
+centralized blockchain solutions, ensuring transparency, security, and efficiency,
+while overcoming implementation hurdles and regulatory obstacles.
+
+
+OBJECTIVES:
+1).Leverage Blockchain for Transparency & Security.
+2).Ensure secure and immutable transaction records in crowdfunding.
+3).Eliminate Centralized Authority.
+4).Enable decentralized tracking of fund usage and governance decisions.
+5).Automate secure and efficient fund allocation, reducing risks of fraud.
+6).Maintain tamper-proof financial records and improve trust in fund distribution.
+
+
+APPLICATIONS:
+1).Transparency: Blockchain ensures that all transactions are publicly verifiable, allowing backers to track funds.
+2).Trust and Security: Decentralized platforms and smart contracts protect against fraud and ensure funds are handled securely.
+3).Reduced Fees: dApps remove intermediary fees, enabling more funds to reach the project creators.
+4).Global Access: dApps can be accessed globally, allowing a wider pool of backers without regional restrictions.
+5).Automated Fund Management: Smart contracts release funds automatically when certain conditions (e.g., reaching funding goals) are met.
+6).Decentralized Governance: Backers can vote on key decisions, allowing a community-driven approach to project development.
+7).Ownership and Control: Project creators maintain full control over their campaign without relying on centralized platforms.
+
