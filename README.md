@@ -19,7 +19,7 @@ DOMAIN: Software
 
 TEAM MEMBER:  
 1.	221107016_19_ Patil Manasi Ramkrushna.
-2.	221107041_43_Bari Vaibhav Ramchandra.
+2.	221107041_41_Bari Vaibhav Ramchandra.
 3.	221107059_58_Patil Sakshi Rajendra.  
 4.	221107060_59_Mali Nitisha Sharad. 
 
