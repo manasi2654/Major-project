@@ -1,0 +1,71 @@
+// SPDX-License-Identifier: MIT
+pragma solidity ^0.8.0;
+
+contract Crowdfunding {
+    address public owner;
+    uint public goal;
+    uint public deadline;
+    uint public fundsRaised;
+
+    mapping(address => uint) public contributions;
+
+    event Funded(address indexed contributor, uint amount);
+    event GoalReached(uint amount);
+    event FundsWithdrawn(uint amount);
+    event CampaignStarted(address owner, uint goal, uint deadline);
+
+    modifier onlyOwner() {
+        require(msg.sender == owner, "Only owner can perform this action");
+        _;
+    }
+
+    modifier afterDeadline() {
+        require(block.timestamp > deadline, "The campaign is still active");
+        _;
+    }
+
+    modifier notGoalReached() {
+        require(fundsRaised < goal, "Goal has already been reached");
+        _;
+    }
+
+    constructor(uint _goal, uint _duration) {
+        owner = msg.sender;
+        goal = _goal;
+        deadline = block.timestamp + _duration;
+        fundsRaised = 0;
+        emit CampaignStarted(owner, goal, deadline);
+    }
+
+    function contribute() public payable notGoalReached {
+        require(block.timestamp < deadline, "The campaign has ended");
+
+        contributions[msg.sender] += msg.value;
+        fundsRaised += msg.value;
+        emit Funded(msg.sender, msg.value);
+
+        if (fundsRaised >= goal) {
+            emit GoalReached(fundsRaised);
+        }
+    }
+
+    function withdrawFunds() public onlyOwner afterDeadline {
+        require(fundsRaised >= goal, "Goal not reached");
+        uint amount = fundsRaised;
+        fundsRaised = 0;
+        payable(owner).transfer(amount);
+        emit FundsWithdrawn(amount);
+    }
+
+    function refund() public afterDeadline {
+        require(fundsRaised < goal, "Goal reached, no refunds available");
+        uint contribution = contributions[msg.sender];
+        require(contribution > 0, "No contributions to refund");
+        contributions[msg.sender] = 0;
+        payable(msg.sender).transfer(contribution);
+    }
+
+    function getCampaignDetails() public view returns (uint, uint, uint, uint) {
+        return (goal, deadline, fundsRaised, address(this).balance);
+    }
+}
