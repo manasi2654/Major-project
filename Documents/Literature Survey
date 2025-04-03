@@ -1,0 +1,32 @@
+Background
+
+Crowdfunding is a method of raising funds from a large group of people via online platforms like Kickstarter and Indiegogo, rather than relying on banks or investors. 
+It allows project founders to quickly access capital while also generating public awareness and feedback.
+
+However, traditional crowdfunding faces challenges like fraud, lack of transparency, and delayed rewards. 
+Blockchain technology solves these issues by introducing decentralization, smart contracts, and transparency.
+
+Advantages of Blockchain Crowdfunding:
+Trust & Security: Transactions are recorded on a public ledger, reducing fraud.
+Smart Contracts: Automate fund distribution based on project milestones.
+Global Access: Anyone can invest without intermediaries.
+Faster & Cheaper: Reduces time and cost compared to traditional methods.
+
+Existing Systems :
+Several blockchain-based crowdfunding projects have been developed, each with advantages and drawbacks:
+Shrishti Varshney et al.:
+used the now-deprecated Goerli faucet, making the project irrelevant. However, it highlighted the importance of smart contracts.
+Praharsh Churi et al.:
+used Ethereum but faced challenges with MATIC’s low user base. A widely adopted cryptocurrency is essential for successful fundraising.
+Sushanth Kumar Reddy Kura et al. :
+emphasized the benefits of using Ether but lacked governance features, which could be addressed through smart contracts.
+Swarup Chattopadhyay et al. :
+discussed governance integration via smart contracts but mainly focused on Ether for fundraising.
+Prof. Ujwala Gaikwad et al. :
+used Polygon for fast transactions, but scalability was a limitation.
+Firmansyah Ashari et al.:
+highlighted smart contracts' role in automating fund distribution and removing third-party dependencies.
+Syed Abdul Dalim et al.:
+used Etherscan API for transparency but faced dependency issues and privacy concerns.
+Singh Rawat et al. :
+identified risks like fraud and misuse of funds in crowdfunding, stressing the need for better verification methods.
