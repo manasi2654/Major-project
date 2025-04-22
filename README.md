@@ -23,3 +23,26 @@ TEAM MEMBER:
 3.	221107059_58_Patil Sakshi Rajendra.  
 4.	221107060_59_Mali Nitisha Sharad. 
 
+
+
+# 🚀 *<div align="center">The Next-Gen Crowdfunding DApp using Blockchainr</div>* 
+
+### 📌 A Collaborative Repository for the Major Project of TYAIML Students  
+Under the esteemed guidance of *Prof. T. R.Girase Mam*  
+
+---
+
+## 📜 About the Project  
+*Crowdfunding DApp* Crowdfunding has revolutionized fundraising but remains plagued by fraud, lack of transparency, and inefficiencies due to centralized control. 
+Crowdfunding Matrix leverages blockchain technology and smart contracts to create a decentralized, secure, and transparent crowdfunding platform. 
+This model eliminates intermediaries, reducing costs and delays while ensuring trust less transactions.
+
+
+---
+
+## 🖼 Project Preview  
+<div align="center">
+    <img src="https://github.com/DhanashriPatil11/Major-Project/blob/main/Images/judicial.jpg?raw=true">
+</div>  
+
+---
