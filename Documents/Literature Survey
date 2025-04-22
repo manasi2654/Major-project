@@ -12,21 +12,33 @@ Smart Contracts: Automate fund distribution based on project milestones.
 Global Access: Anyone can invest without intermediaries.
 Faster & Cheaper: Reduces time and cost compared to traditional methods.
 
-Existing Systems :
-Several blockchain-based crowdfunding projects have been developed, each with advantages and drawbacks:
-Shrishti Varshney et al.:
-used the now-deprecated Goerli faucet, making the project irrelevant. However, it highlighted the importance of smart contracts.
-Praharsh Churi et al.:
-used Ethereum but faced challenges with MATIC’s low user base. A widely adopted cryptocurrency is essential for successful fundraising.
-Sushanth Kumar Reddy Kura et al. :
-emphasized the benefits of using Ether but lacked governance features, which could be addressed through smart contracts.
-Swarup Chattopadhyay et al. :
-discussed governance integration via smart contracts but mainly focused on Ether for fundraising.
-Prof. Ujwala Gaikwad et al. :
-used Polygon for fast transactions, but scalability was a limitation.
-Firmansyah Ashari et al.:
-highlighted smart contracts' role in automating fund distribution and removing third-party dependencies.
-Syed Abdul Dalim et al.:
-used Etherscan API for transparency but faced dependency issues and privacy concerns.
-Singh Rawat et al. :
-identified risks like fraud and misuse of funds in crowdfunding, stressing the need for better verification methods.
+
+## Literature Survey
+
+| **Author(s) / Year**              | **Title / Platform**                        | **Key Features**                                                                 | **Limitations**                                                                 |
+|----------------------------------|---------------------------------------------|----------------------------------------------------------------------------------|----------------------------------------------------------------------------------|
+| Vitalik Buterin, Ethereum (2015) | Ethereum Whitepaper                         | Introduced smart contracts enabling decentralized applications                   | General-purpose; not specific to crowdfunding                                    |
+| Giveth.io (2017–Present)         | Giveth Decentralized Crowdfunding           | Donation-based platform; smart contracts control fund distribution               | Still under development; limited adoption                                        |
+| Kickstarter                     | Centralized Crowdfunding Platform           | Popular, user-friendly, wide audience reach                                      | Centralized control, high fees, lack of transparency                             |
+| WeiFund (2016)                  | Open platform for crowdfunding on Ethereum  | Campaigns run fully on smart contracts; open-source                              | Project discontinued; lacked user engagement and long-term support               |
+| Fundition.io (2018)             | Blockchain-based social crowdfunding         | Decentralized, integrates social features                                        | Platform-specific token dependency; adoption issues                              |
+
+---
+## Review of Existing Systems
+*Kickstarter / GoFundMe* : Centralized platforms that host crowdfunding campaigns, control approval processes, and take a percentage of raised funds.
+*Giveth* : A DApp focused on donations with built-in transparency and traceability using smart contracts.
+*Fundition* : Uses blockchain to power donation-based fundraising with a social layer.
+*WeiFund* : An early Ethereum-based DApp that explored decentralized crowdfunding.
+
+## Limitations of Existing Systems
+  ## Centralized Platforms:
+Dependence on a trusted third party.
+High service and transaction fees.
+Vulnerable to censorship and platform bias.
+Lack of financial transparency post-campaign.
+
+  ## Early DApps:
+Low adoption and poor UX compared to centralized platforms.
+Limited scalability.
+Dependency on specific tokens or chains.
+Often lack milestone-based fund release mechanisms.
