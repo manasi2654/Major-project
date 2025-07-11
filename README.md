@@ -6,7 +6,7 @@
 # 🚀 *<div align="center">The Next-Gen Crowdfunding DApp using Blockchainr</div>* 
 
 ### 📌 A Collaborative Repository for the Major Project of TYAIML Students  
-Under the esteemed guidance of *Prof. T. R.Girase Mam*  
+Under the esteemed guidance of *Prof. T. R. Girase Mam*  
 
 ---
 
